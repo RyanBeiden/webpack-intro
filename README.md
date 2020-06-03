@@ -87,7 +87,7 @@ npm start
 # Frontend Dependencies
 
 ## Bootstrap
->Run `npm install bootstrap --save`
+Run `npm install bootstrap --save`
 >Add this to your `main.scss` file:
 ```css
 @import "~bootstrap/scss/bootstrap";
@@ -97,7 +97,7 @@ For Bootstrap JS, add this to your `main.js` file:
 import 'bootstrap';
 ```
 ## Fontawesome
->Run `npm install @fortawesome/fontawesome-free --save`
+Run `npm install @fortawesome/fontawesome-free --save`
 >Add this to you `main.scss` file:
 ```css
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
@@ -111,7 +111,7 @@ let domString = `<img src=${cat} alt="picture of a cat"/>`;
 document.getElementById('cat').innerHTMl = domString;
 ```
 ## Axios
->Run `npm install axios --save`
+Run `npm install axios --save`
 > For every file you will need to make an XHR request in, you will need to require Axios
 ```js
 import axios from 'axios';
