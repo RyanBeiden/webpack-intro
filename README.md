@@ -79,6 +79,7 @@ To install Regular Dependencies, run:
 ```
 npm install axios firebase jquery popper.js --save
 ```
+>I've gotten errors here before, and it seemed to be because node was not up to date so run `brew upgrade node` and try again.
 ## Step 11
 Add some test code to your `index.html`, `main.js`, & `main.scss` files and finally run:
 ```
