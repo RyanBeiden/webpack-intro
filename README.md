@@ -1,4 +1,4 @@
-# Webpack Intro 🚀
+# Webpack Installs 🚀
 
 ## Step 1
 **Make sure you are in the correct directory and run:** `npm init -y`
@@ -77,10 +77,18 @@ In root, create a file named `.eslintrc` and add:
 ## Step 8
 To install Regular Dependencies, run:
 ```
-npm install axios bootstrap firebase jquery popper.js @fortawesome/fontawesome-free --save
+npm install axios firebase jquery popper.js --save
 ```
-## Step 9 (Optional! Use only if you need this library)
-For Bootstrap CSS, add this to your `main.scss` file:
+## Step 11
+Add some test code to your `index.html`, `main.js`, & `main.scss` files and finally run:
+```
+npm start
+```
+# Frontend Dependencies
+
+## Bootstrap
+>Run `npm install bootstrap --save`
+>Add this to your `main.scss` file:
 ```css
 @import "~bootstrap/scss/bootstrap";
 ```
@@ -88,18 +96,13 @@ For Bootstrap JS, add this to your `main.js` file:
 ```js
 import 'bootstrap';
 ```
-## Step 10 (Optional! Use only if you need this library)
-For fontawesome, add this to you `main.scss` file:
+## Fontawesome
+>Run `npm install @fortawesome/fontawesome-free --save`
+>Add this to you `main.scss` file:
 ```css
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 ```
-## Step 11
-Add some test code to your `index.html`, `main.js`, & `main.scss` files and finally run:
-```
-npm start
-```
----
-## Including Images with Webpack
+## Images
 ```js
 import cat from './assets/cat.jpg';
 
@@ -107,7 +110,8 @@ let domString = `<img src=${cat} alt="picture of a cat"/>`;
 
 document.getElementById('cat').innerHTMl = domString;
 ```
-## Using Axios
+## Axios
+>Run `npm install axios --save`
 > For every file you will need to make an XHR request in, you will need to require Axios
 ```js
 import axios from 'axios';
@@ -122,4 +126,3 @@ const examplePromise = () => new Promise((resolve, reject) => {
     });
 });
 ```
- 
