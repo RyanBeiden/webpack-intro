@@ -74,12 +74,12 @@ In root, create a file named `.eslintrc` and add:
   }
 }
 ```
-## Step 8 (Optional! Use only if you need these libraries)
+## Step 8
 To install Regular Dependencies, run:
 ```
 npm install axios bootstrap firebase jquery popper.js @fortawesome/fontawesome-free --save
 ```
-## Step 9
+## Step 9 (Optional! Use only if you need this library)
 For Bootstrap CSS, add this to your `main.scss` file:
 ```css
 @import "~bootstrap/scss/bootstrap";
@@ -88,7 +88,7 @@ For Bootstrap JS, add this to your `main.js` file:
 ```js
 import 'bootstrap';
 ```
-## Step 10
+## Step 10 (Optional! Use only if you need this library)
 For fontawesome, add this to you `main.scss` file:
 ```css
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
