@@ -87,8 +87,7 @@ npm start
 # Frontend Dependencies
 
 ## Bootstrap
-Run `npm install bootstrap --save`  
-Add this to your `main.scss` file:
+Run `npm install bootstrap --save` and add this to your `main.scss` file:
 ```css
 @import "~bootstrap/scss/bootstrap";
 ```
@@ -97,8 +96,7 @@ For Bootstrap JS, add this to your `main.js` file:
 import 'bootstrap';
 ```
 ## Fontawesome
-Run `npm install @fortawesome/fontawesome-free --save`  
-Add this to your `main.scss` file:
+Run `npm install @fortawesome/fontawesome-free --save` and add this to your `main.scss` file:
 ```css
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 ```
