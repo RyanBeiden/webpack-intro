@@ -66,7 +66,7 @@ In root, create a file named `.eslintrc` and add:
     "allowTemplateLiterals": true
   },
   "rules": {
-    "no-console": [1, { "allow": ["error"] }],
+    "no-console": [1, { "allow": ["warn", "error"] }],
     "no-debugger": 1,
     "class-methods-use-this": 0,
     "linebreak-style": 0,
