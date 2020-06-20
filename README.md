@@ -80,6 +80,8 @@ To install Regular Dependencies, run:
 npm install axios firebase jquery popper.js --save
 ```
 >I've gotten errors here before, and it seemed to be because node was not up to date so run `brew upgrade node` and try again.
+
+**Also, on roughly line 27 of package.json after these installs, change `"eslint": "^7.3.0",` to `"eslint": "7.2.0",`**
 ## Step 11
 In root, create a file `webpack.config.js` and add:
 ```js
