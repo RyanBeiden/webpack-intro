@@ -168,14 +168,10 @@ Run `npm install bootstrap --save` and add this to your `main.scss` file:
 ```css
 @import "~bootstrap/scss/bootstrap";
 ```
-For Bootstrap JS, add this to your `main.js` file:
-```js
-import 'bootstrap';
-```
 ## Fontawesome
 Run `npm install @fortawesome/fontawesome-free --save` and add this to your `main.scss` file:
 ```css
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 ```
 ## Images
 Add something like this to the file you are adding an image too:
